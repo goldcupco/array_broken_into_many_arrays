@@ -38,7 +38,7 @@ Ouput: [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
 
 Working:
 
-array.length = 12
+array.length = 12 <br>
 N splits = 3
 newArraySize = 12 / 3 = 4
 Each new array should have a length of 4.
