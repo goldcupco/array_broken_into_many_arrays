@@ -5,7 +5,7 @@
 * [Solution](#solution)
 * [How I Coded This](#how-i-coded-this)
 * [How To Install](#how-to-install)
-* [How To Test](#how-to-test)
+* [How To Run The Tests](#how-to-run-the-tests)
 * [How To Run](#how-to-run)
 
 
