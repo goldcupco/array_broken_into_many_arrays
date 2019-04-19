@@ -7,6 +7,7 @@
 * [How To Install](#how-to-install)
 * [How To Run The Tests](#how-to-run-the-tests)
 * [How To Run](#how-to-run)
+* [Improvements](#improvements)
 
 
 ## Problem 
@@ -177,3 +178,7 @@ In the main 'twig_education' folder
 In the main 'twig_education' folder 
 
 `npm start`
+
+## Improvements
+
+I could look into the complexity of the loop and see if there is a faster solution, if dealing with splitting up large arrays. Something like a reverse loop, or a while loop.
