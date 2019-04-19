@@ -54,10 +54,10 @@ array.length = 5 <br>
 N splits = 3 <br>
 newArraySize = 5 / 3 = 1.666..
 
-Round to nearest whole number = 2 <- YES
-Round ceiling = 2 <- YES
-Round floor = 1 <- NO
-Rounding gives the newArraySize, except with the last array.
+Round to nearest whole number = 2 <- YES <br>
+Round ceiling = 2 <- YES <br>
+Round floor = 1 <- NO <br>
+Rounding gives the newArraySize, except with the last array. <br>
 I need another example to check whether rounding to the nearest whole number or rounding using Math.ceil is correct.
 
 ### Example 3 (checking whether it should be rounding in general or Math.ceil)
@@ -70,8 +70,8 @@ array.length = 7 <br>
 N splits = 3 <br>
 newArraySize = 7 / 3 = 2.3333...
 
-Looking at the output, we expect newArraySize = 3
-Round to the nearest whole number = 2 <- NO
+Looking at the output, we expect newArraySize = 3 <br>
+Round to the nearest whole number = 2 <- NO <br>
 Round ceiling = 3 <- YES
 
 So, every decimal should round UP to define the new array sizes, excluding the last array.
@@ -116,7 +116,7 @@ newArraySize = 0 / 5 = 0
 
 ### Result As An Array
 
-The result should be in a new array, as I don't want to mutate the original.
+The result should be in a new array, as I don't want to mutate the original. 
 const result = []
 
 ### Size Of New Arrays
