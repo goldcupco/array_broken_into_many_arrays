@@ -105,7 +105,7 @@ Round ceiling = 1
 
 
 ### Example 6 (check extreme where array.length = 0)
-Input: ([],5)
+Input: ([],5)<br>
 Output: [[]]
 
 array.length = 0 <br>
