@@ -5,7 +5,7 @@
 * [Solution](#solution)
 * [How I Coded This](#how-i-coded-this)
 * [How To Install](#how-to-install)
-* [How To Test](#how-to-test)
+* [How To Run The Tests](#how-to-run-the-tests)
 * [How To Run](#how-to-run)
 
 
@@ -26,11 +26,10 @@ groupArrayElements([ 1, 2, 3, 4, 5], 3 );
 ## Solution 
 
 ### Language 
-From a choice of JavaScript or Python, I have chosen JavaScript to complete this task.
-I am aware there are some built in methods for arrays (splice / splice / etc) which I am sure will be handy here.
+From a choice of JavaScript or Python, I have chosen JavaScript to complete this task, mainly because I have not learned Python yet. However, I think JavaScript will do the job well as there are some built in methods for arrays (splice / splice / etc) which I am sure will be handy here.
 
 ### Understanding The Problem
-Examples to make sure I understood the problem, which I will use as tests.
+Examples to make sure I understand the problem, which I will use as tests.
 
 ### Example 1 (check an output with no remainder)
 
@@ -57,8 +56,7 @@ newArraySize = 5 / 3 = 1.666..
 Round to nearest whole number = 2 <- YES
 Round ceiling = 2 <- YES
 Round floor = 1 <- NO
-Rounding gives the arraySize, except with the last array.
-We can see the expected output should be array sizes of 2, excluding the last array.
+Rounding gives the newArraySize, except with the last array.
 I need another example to check whether rounding to the nearest whole number or rounding using Math.ceil is correct.
 
 ### Example 3 (checking whether it should be rounding in general or Math.ceil)
@@ -141,7 +139,7 @@ Starting at index position 0, and ending where i < myArray.length
 
 #### Dealing With Increments
 
-I can increment the newArraySize which deals with possibility of having a remainder therefore a different final array size.
+I can increment the newArraySize which deals with possibility of having a remainder, therefore a different final array size.
 
 #### Slicing, Splicing or Splitting
 
@@ -154,7 +152,6 @@ I chose the .slice as my method, as this takes the values from the original arra
 Splitting is not for arrays, but for strings.
 
 Splicing modifies the original array, which I don't want to do in this case.
-It could be stored data so I dont want to modify it.
 
 ### Push To Result Array
 
