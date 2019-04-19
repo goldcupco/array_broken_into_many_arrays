@@ -35,7 +35,7 @@ Examples to make sure I understand the problem, which I will use as tests.
 ### Example 1 (check an output with no remainder)
 
 Input: ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],3) <br>
-Ouput: [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
+Ouput: [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
 
 Working:
 
