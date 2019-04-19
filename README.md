@@ -34,7 +34,7 @@ Examples to make sure I understand the problem, which I will use as tests.
 
 ### Example 1 (check an output with no remainder)
 
-Input: ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],3)
+Input: ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],3) <br>
 Ouput: [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
 
 Working:
@@ -46,7 +46,7 @@ Each new array should have a length of 4.
 
 
 ### Example 2 (Using example from above to look at a remainder)
-Input: ([1, 2, 3, 4, 5], 3 );
+Input: ([1, 2, 3, 4, 5], 3 ); <br>
 Output [ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]
 
 Working: 
@@ -61,7 +61,7 @@ Rounding gives the newArraySize, except with the last array.
 I need another example to check whether rounding to the nearest whole number or rounding using Math.ceil is correct.
 
 ### Example 3 (checking whether it should be rounding in general or Math.ceil)
-Input: ([1, 2, 3, 4, 5, 6, 7],3) 
+Input: ([1, 2, 3, 4, 5, 6, 7],3) <br>
 Output: [[1, 2, 3], [4, 5, 6], [7]]
 
 Working:
@@ -79,7 +79,7 @@ So, every decimal should round UP to define the new array sizes, excluding the l
 
 ### Example 4 (check with .5 decimal)
 
-Input: ([1, 2, 3, 4, 5, 6, 7, 8, 9], 2)
+Input: ([1, 2, 3, 4, 5, 6, 7, 8, 9], 2) <br>
 Ouput: [[1, 2, 3, 4, 5], [6, 7, 8, 9]]
 
 Working:  
@@ -93,7 +93,7 @@ This confirms all decimals should round UP.
 
 
 ### Example 5 (check extreme where array.length < numOfArrays)
-Input: ([1, 2],5)
+Input: ([1, 2],5) <br>
 Output: [[1],[2]]
 
 Working: 
