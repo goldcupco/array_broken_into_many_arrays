@@ -162,20 +162,20 @@ This would deal with a remainder affecting the size of the final array, as this 
 
 
 ## How To Install
-In the main 'twig_education' folder 
+In the main folder 
 
 `npm install`
 
 
 ## How To Run The Tests
 
-In the main 'twig_education' folder 
+In the main folder 
 
 `npm test`
 
 ## How To Run
 
-In the main 'twig_education' folder 
+In the main folder 
 
 `npm start`
 
