@@ -39,8 +39,8 @@ Ouput: [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
 Working:
 
 array.length = 12 <br>
-N splits = 3
-newArraySize = 12 / 3 = 4
+N splits = 3 <br>
+newArraySize = 12 / 3 = 4 <br>
 Each new array should have a length of 4.
 
 
@@ -49,8 +49,8 @@ Input: ([1, 2, 3, 4, 5], 3 );
 Output [ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]
 
 Working: 
-array.length = 5
-N splits = 3
+array.length = 5 <br>
+N splits = 3 <br>
 newArraySize = 5 / 3 = 1.666..
 
 Round to nearest whole number = 2 <- YES
@@ -65,8 +65,8 @@ Output: [[1, 2, 3], [4, 5, 6], [7]]
 
 Working:
 
-array.length = 7
-N splits = 3
+array.length = 7 <br>
+N splits = 3 <br>
 newArraySize = 7 / 3 = 2.3333...
 
 Looking at the output, we expect newArraySize = 3
@@ -83,8 +83,8 @@ Ouput: [[1, 2, 3, 4, 5], [6, 7, 8, 9]]
 
 Working:  
 
-array.length = 9
-N splits = 2
+array.length = 9 <br>
+N splits = 2 <br>
 newArraySize = 9 / 2 = 4.5
 Round ceiling = 5 <- YES
 
@@ -97,9 +97,9 @@ Output: [[1],[2]]
 
 Working: 
 
-array.length = 2
-N splits = 5
-newArraySize = 2 / 5 = 0.4
+array.length = 2 <br>
+N splits = 5 <br>
+newArraySize = 2 / 5 = 0.4 <br>
 Round ceiling = 1
 
 
@@ -107,8 +107,8 @@ Round ceiling = 1
 Input: ([],5)
 Output: [[]]
 
-array.length = 0
-N splits = 5
+array.length = 0 <br>
+N splits = 5 <br>
 newArraySize = 0 / 5 = 0
 
 ## How I Coded This
