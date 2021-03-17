@@ -182,3 +182,4 @@ In the main folder
 ## Improvements
 
 I could look into the complexity of the loop and see if there is a faster solution, if dealing with splitting up large arrays. Something like a reverse loop, or a while loop.
+# array_broken_into_many_arrays
